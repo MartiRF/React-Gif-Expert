@@ -3,7 +3,7 @@ import { AddCategory, GifGrid } from './Components/'
 
 
 export const GifExpertApp = () => {
-    const [categories, setcategories] = useState(['Futurama','God of War']);
+    const [categories, setcategories] = useState(['Sekiro Shadows Die Twice','God of War']);
 
     // console.log(categories)
     const onAddCategories = (newCategory) => {
